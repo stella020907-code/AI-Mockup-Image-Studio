@@ -34,11 +34,11 @@ export const createMockup = async (
                 return `data:${part.inlineData.mimeType};base64,${part.inlineData.data}`;
             }
         }
-        throw new Error("No image data found in response.");
+        throw new Error("응답에서 이미지 데이터를 찾을 수 없습니다.");
 
     } catch (error) {
         console.error("Error creating mockup:", error);
-        throw new Error("Failed to create mockup. Please check the console for details.");
+        throw new Error("목업 생성에 실패했습니다. 자세한 내용은 콘솔을 확인해주세요.");
     }
 };
 
@@ -61,9 +61,9 @@ export const generateImage = async (
             const base64ImageBytes: string = response.generatedImages[0].image.imageBytes;
             return `data:image/png;base64,${base64ImageBytes}`;
         }
-        throw new Error("No image data found in response.");
+        throw new Error("응답에서 이미지 데이터를 찾을 수 없습니다.");
     } catch (error) {
         console.error("Error generating image:", error);
-        throw new Error("Failed to generate image. Please check the console for details.");
+        throw new Error("이미지 생성에 실패했습니다. 자세한 내용은 콘솔을 확인해주세요.");
     }
 };

@@ -3,22 +3,22 @@ import { MockupTemplate } from './types';
 export const MOCKUP_TEMPLATES: MockupTemplate[] = [
   {
     id: 'tshirt',
-    name: 'T-Shirt',
-    url: 'https://images.pexels.com/photos/428338/pexels-photo-428338.jpeg?auto=compress&cs=tinysrgb&w=600',
+    name: '티셔츠',
+    url: 'https://user-images.githubusercontent.com/1125228/83648671-33928100-a590-11ea-9c33-df5cd37e0e71.png',
   },
   {
     id: 'mug',
-    name: 'Mug',
-    url: 'https://images.pexels.com/photos/1437590/pexels-photo-1437590.jpeg?auto=compress&cs=tinysrgb&w=600',
+    name: '머그컵',
+    url: 'https://user-images.githubusercontent.com/1125228/83648673-34c3ae00-a590-11ea-80be-803b8655b315.png',
   },
   {
     id: 'tote-bag',
-    name: 'Tote Bag',
-    url: 'https://images.pexels.com/photos/7521253/pexels-photo-7521253.jpeg?auto=compress&cs=tinysrgb&w=600',
+    name: '토트백',
+    url: 'https://user-images.githubusercontent.com/1125228/83648675-355c4480-a590-11ea-833b-55c309359a6c.png',
   },
   {
     id: 'hoodie',
-    name: 'Hoodie',
-    url: 'https://images.pexels.com/photos/7123343/pexels-photo-7123343.jpeg?auto=compress&cs=tinysrgb&w=600',
+    name: '후드티',
+    url: 'https://user-images.githubusercontent.com/1125228/83648670-33928100-a590-11ea-9148-72465b05c12c.png',
   },
 ];

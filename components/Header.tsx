@@ -12,7 +12,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto flex items-center gap-3">
         <SparklesIcon />
         <h1 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-400 to-fuchsia-500">
-          AI Mockup & Image Studio
+          AI 목업 & 이미지 스튜디오
         </h1>
       </div>
     </header>
